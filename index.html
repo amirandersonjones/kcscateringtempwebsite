@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KC's Catering Temporary Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../static/css/main.css">
+  <!-- Load an icon library for navigation bar -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- need to link js sources -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!--Navbar Section-->
+    <nav class="navbar">
+      <div class="navbar__container">
+          <a href="/" id="navbar__logo"><i class="fa fa-fw fa-cutlery"></i>KC's Catering &nbsp;(773) 490-2666</a>
+          <div class="navbar__toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+              <li class="navbar__item">
+                  <a href="/" class="navbar__links"><i class="fa fa-fw fa-home"></i>HOME</a>   
+              </li>
+              <li class="navbar__item">
+                  <a href="/components/about.html" class="navbar__links"><i class="fa fa-fw fa-info"></i>ABOUT</a>   
+              </li>
+              <li class="navbar__item">
+                  <a href="/components/menu.html" class="navbar__links"><i class="fa fa-fw fa-bars"></i>MENU</a>   
+              </li>
+              <li class="navbar__btn">
+                  <a href="#social" class="button"><i class="fa fa-fw fa-group"></i>SOCIAL</a>   
+              </li>
+          </ul>
+      </div>
+     
+  </nav>  
+    
+    <!--  Old Navbar Section
+    <div class="navbar">
+      <a href="#home" id="navbar__logo">KC'S CATERING</a>
+      <a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="#about"><i class="fa fa-fw fa-info"></i> About</a>
+      <a href="#services"><i class="fa fa-fw fa-bars"></i> Menu </a>
+      <a href="#social"><i class="fa fa-fw fa-group"></i> Social</a>
+    </div>
+       -->
+ 
+ <!--  HOME SECTION -->
+ <div class="hero" id="home">
+    <div class="hero__container">
+      <h1 class="hero__heading"> KC'S <span> CATERING</h1>
+      <p class="hero__description">CREATING ELEGANT OCCASIONS AND MEMORABLE EVENTS!</p>
+      <button class="main__btn"><a href="/components/photos.html">PHOTOS</a></button>
+      </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+          <div class="main__img--card"><!--<img class="card_images"img src="static/css/images/kellie1.jpg">--></div>
+      </div>
+      <div class="main__content">
+        <h1>WHAT WE DO?</h1>
+        <h4>Contact: (773)490-2666</h4>
+        <h4>Email: kcscater4u@gmail.com</h4>
+        <br><h4>Baby Showers, Birthdays, Private Dinners, Mobile and Club Catering, Meal Prep and More..</h4></br>
+        <p>Submit order form or call to learn more about our services!</p>
+        <button class="main__btn"><a href="mailto:kcscater4u@gmail.com">Email Inquiry</a></button>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- MENU Section -->
+  <div class="services" id="services">
+    <h1> Menu Offerings: </h1>
+    <div class="menu__wrapper">
+      <div class="menu__card">
+        <h2> Menu 1 </h2>
+        <img class="card_images"img src="../assets/tacobarbaseline.jpg">
+        <br>
+        <p> Taco Bar </p>
+        <div class="menu__btn"><button><a href="/components/menu.html">CLICK FOR MENU</a></button></div>
+      </div>
+      <div class="menu__card">
+        <h2> Menu 2 </h2>
+        <img class="card_images"img src="../assets/bbq1.jpg">
+        <br>
+        <p> Summer BBQ Slam </p>
+        <div class="menu__btn"><button><a href="/components/menu.html">CLICK FOR MENU</a></button></div>
+      </div>
+      <div class="menu__card">
+        <h2>Buy It Buy The Pan</h2>
+        <img class="card_images"img src="../assets/pastasalad.jpg">
+        <br>
+        <p>Half Pan or Whole Pan</p>
+        <div class="menu__btn"><button><a href="/components/menu.html">CLICK FOR MENU</a></button></div>
+      </div>
+      <div class="menu__card">
+        <h2>Additional Services</h2>
+        <img class="card_images"img src="../assets/mealprep1.jpg">
+        <br>
+        <p>Meal Prep Services</p>
+        <div class="menu__btn"><button><a href="/components/menu.html">CLICK FOR MENU</a></button></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Social Section -->
+  <div class="main" id="social" >
+    <div class="main__container">
+      <div class="main__content">
+        <h1>Let's Get Social<br>Contact: (773)490-2666</br></h1>
+        <h2>Our Favorite Drink Pairings For Any Event</h2>
+        <p>See what makes us different</p>
+        <p>Hire a bartender for your next event!</p>
+        <button class="main__btn"><a href="mailto:kcscater4u@gmail.com">Inquire Within</a></button>
+      </div>
+      <div class="main__img--container justify-content-center"> 
+        <p style="color:#dd2476"; font><i> "DRINK OF THE MONTH: 155 BELMONT" </i></p> 
+        <div class="main__img--card" id="card-2">    
+          <img src="assets/155 Belmont.jpg" alt="155 Belmont" class="card-img-top" alt="155 Belmont">  
+        </div>
+    </div> 
+  </div>
+
+
+   <!--Blog Section -->
+   <div class="services" id="blog">
+    <h1> EXPLORE MORE: **Pardon Our Dust-Blog Area Coming Soon** </h1>
+    <h2> <i class="fa fa-heartbeat" aria-hidden="true" id="heart"></i></h2><h6 class="instructions">Want to Join Our Blogs? | INSTRUCTIONS: All users must first register to the website. Next, sign in from the homepage. A button will appear at the top of your screen next to the signout and signup buttons. The button will contain your username. Click to start blogging!</h6>
+    
+    <div class="menu__wrapper">
+      <div class="menu__card">
+        <h2>  <i class="fa fa-users" aria-hidden="true"></i></h2>
+      <h2>START BLOGGING:</h2>  
+        <div class="menu__btn"><button><a href="/components/blog.html">Register Here!</a></button></div>
+      </div>
+      <div class="menu__card">
+        <h2> <i class="fa fa-dove" aria-hidden="true"></i></h2>
+        <h2><i class="fa fa-mail-reply-all" aria-hidden="true"></i> EVENTS </h2> 
+        <div class="menu__btn"><button><a href="/components/events.html">CLICK FOR EVENTS PAGE</a></button></div>
+      </div>
+      <div class="menu__card">
+        <h2>  <i class="fa fa-barcode" aria-hidden="true"></i></h2>
+        <p>BUY OUR BRAND</p>
+        <div class="menu__btn"><button>CLICK FOR MENU</button></div>
+      </div>
+      <div class="menu__card">
+        <h2> <i class="fa fa-heart" aria-hidden="true"></i></h2>
+        <h2>OUR STORY</h2>
+        <p>PHOTO DESCRIPTION</p>
+        <div class="menu__btn"><button><a href="/components/about.html">CLICK FOR MENU</a></button></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="https://form.123formbuilder.com/6136274/form">Contact</a> <a href="https://form.123formbuilder.com/6136274/form">Support</a>
+          <a href="/">Destinations</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+       
+        <div class="footer__link--items">
+          <h2>Social Media</h2>
+          <a href="/">Instagram</a> <a href="/">Facebook</a>
+          <a href="/">Youtube</a> <a href="/">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo"> KC'S CATERING </a>
+        </div>
+        <p class="website__rights">© KC's Catering 2022. All rights reserved</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="/" class="social__icon--link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+  </div>   
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

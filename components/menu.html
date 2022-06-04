@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/menu.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+   <!--Navbar Section-->
+   <nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fa fa-fw fa-cutlery"></i>KC's Catering &nbsp;(773) 490-2666</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/" class="navbar__links"><i class="fa fa-fw fa-home"></i>HOME</a>   
+            </li>
+            <li class="navbar__item">
+                <a href="/components/about.html" class="navbar__links"><i class="fa fa-fw fa-info"></i>ABOUT</a>   
+            </li>
+            <li class="navbar__item">
+                <a href="/components/menu.html" class="navbar__links"><i class="fa fa-fw fa-bars"></i>MENU</a>   
+            </li>
+            <li class="navbar__btn">
+                <a href="/components/social.html" class="button"><i class="fa fa-fw fa-group"></i>SOCIAL</a>   
+            </li>
+        </ul>
+    </div>
+   
+</nav> 
+
+<div class="container">
+    <div class="menu">
+      <h2 class="menu-group-heading">
+        Menu 1-Taco Bar:
+      </h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="../assets/tacobar.jpg" alt="Taco Bar">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Meat Selections: Shredded Chicken, Jerk Chicken, Beef</span>
+              <span class="menu-item-price">$350.00/50 guests</span>
+            </h3>
+            <p class="menu-item-description">
+              All the Fixins: Cheese, Lettuce, Tomato, Onions, Cilantro
+              <br>*Jalepenos(optional)</br>
+              *Vegetarian(upon request)
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="../assets/img2.jpg" alt="Cerviche">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Cerviche</span>
+              <span class="menu-item-price">$45.00|$30.00</span>
+            </h3>
+            <p class="menu-item-description">
+              Shrimp & Tilapia *market price
+              <br>*Other options available upon request and subject to availibility!</br>
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="https://i.ibb.co/XbMpbSv/Guacamole.jpg" alt="Homemade Guacamole">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Homemade Guacamole</span>
+              <span class="menu-item-price">$35.00|$20.00</span>
+            </h3>
+            <p class="menu-item-description">
+              Avacados, Tomatoes, Cilantro, Lime...
+              <br>Small or Large</br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 class="menu-group-heading">
+        Menu 2-Summer BBQ Slam:
+      </h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="../assets/bbq1.jpg" alt="BBQ">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Full Pan| BBQ Slam</span>
+              <span class="menu-item-price">$275.00</span>
+            </h3>
+            <p class="menu-item-description">
+              Ribs, marinated in our specialty bbq sauce. Macaroni & Cheese or Mostaccioli and 
+              a Pan of Garden Salad.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="../assets/bbq1.jpg" alt="BBQ">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Half Pan| BBQ Slam</span>
+              <span class="menu-item-price">$220.00</span>
+            </h3>
+            <p class="menu-item-description">
+              Ribs, marinated in our specialty bbq sauce. Macaroni & Cheese and Garden Salad
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <h2 class="menu-group-heading">
+    Meats-Buy It By The Pan:
+  </h2>
+  <div class="menu-group">
+    <div class="menu-item">
+      <img class="menu-item-image" src="../assets/bbq1.jpg" alt="BBQ">
+      <div class="menu-item-text">
+        <h3 class="menu-item-heading">
+          <span class="menu-item-name">Full Pan| BBQ Ribs</span>
+          <span class="menu-item-price">$135.00</span>
+        </h3>
+        <p class="menu-item-description">
+          Ribs off the slab.
+          Marinated in our specialty bbq sauce.
+        </p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img class="menu-item-image" src="../assets/bbqslam.jpg" alt="BBQ">
+      <div class="menu-item-text">
+        <h3 class="menu-item-heading">
+          <span class="menu-item-name">Half Pan| BBQ Ribs</span>
+          <span class="menu-item-price">$90.00</span>
+        </h3>
+        <p class="menu-item-description">
+          Ribs off the slab
+          Marinated in our specialty bbq sauce.
+        </p>.
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<h2 class="menu-group-heading">
+  Meats-Buy It By The Pan:
+</h2>
+<div class="menu-group">
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/img4.jpg" alt="BBQ">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Full Pan| Rib Tips</span>
+        <span class="menu-item-price">$120.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Smoked and tender to perfection!
+        Marinated in our specialty bbq sauce.
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/img4.jpg" alt="BBQ">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Half Pan| Rib Tips</span>
+        <span class="menu-item-price">$85.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Smoked and tender to perfection!
+        Marinated in our specialty bbq sauce.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+  </div>
+  <h2 class="menu-group-heading">
+    Meats-Buy It By The Pan:
+  </h2>
+  
+  <div class="menu-group">
+      <div class="menu-item">
+        <img class="menu-item-image" src="https://i.ibb.co/vzYQBPy/IMG-9431001.jpg" alt="Baked Chicken">
+        <div class="menu-item-text">
+          <h3 class="menu-item-heading">
+            <span class="menu-item-name">Full Pan| Baked Chicken</span>
+            <span class="menu-item-price">$90.00</span>
+          </h3>
+          <p class="menu-item-description">
+            Full & Half Pans 
+           *chicken only
+          </p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img class="menu-item-image" src="https://i.ibb.co/vzYQBPy/IMG-9431001.jpg" alt="Baked Chicken">
+        <div class="menu-item-text">
+          <h3 class="menu-item-heading">
+            <span class="menu-item-name">Half Pan| Baked Chicken</span>
+            <span class="menu-item-price">$50.00</span>
+          </h3>
+          <p class="menu-item-description">
+            Full & Half Pans 
+            *chicken only
+          </p>
+        </div>
+      </div>
+    <div class="menu-item">
+      <img class="menu-item-image" src="../assets/bbqchickenthighs.jpg" alt="BBQ Chicken">
+      <div class="menu-item-text">
+        <h3 class="menu-item-heading">
+          <span class="menu-item-name">Full Pan| BBQ Chicken</span>
+          <span class="menu-item-price">$115.00</span>
+        </h3>
+        <p class="menu-item-description">
+          Full & Half Pans are thighs and legs
+          <br>*wings available upon request & at additional charge(subject to market price)</br>
+        </p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img class="menu-item-image" src="../assets/bbqchickenthighs.jpg" alt="BBQ Chicken">
+      <div class="menu-item-text">
+        <h3 class="menu-item-heading">
+          <span class="menu-item-name">Half Pan| BBQ Chicken</span>
+          <span class="menu-item-price">$80.00</span>
+        </h3>
+        <p class="menu-item-description">
+          Full & Half Pans are thighs and legs
+          <br>*wings available upon request & at additional charge(subject to market price)</br>
+        </p>
+      </div>
+    </div>
+
+  
+</div>
+
+</div>
+<h2 class="menu-group-heading">
+  Meats-Buy It By The Pan:
+</h2>
+<div class="menu-group">  
+  
+  <div class="menu-item">
+    <img class="menu-item-image" src="https://i.ibb.co/n8NM7KW/IMG-0047.jpg" alt="Fried Chicken">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Fried Chicken</span>
+        <span class="menu-item-price">$based on market price</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans are party wings
+        <br>*requests for whole wings available on a case by case basis(subject to market price)</br>
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="https://i.ibb.co/n8NM7KW/IMG-0047.jpg" alt="Fried chicken">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Fried Chicken</span>
+        <span class="menu-item-price">$based on market price</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans are party wings
+        <br>*requests for whole wings available on a case by case basis(subject to market price)</br>
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="menu-group">  
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/jerkchicken.jpg" alt="Jerk Chicken">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Full Pan| Jerk Chicken</span>
+        <span class="menu-item-price">$80.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans are thighs and legs
+        <br>*wings available upon request & at additional charge(subject to market price)</br>
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/jerkchicken.jpg" alt="jerkchicken">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Half Pan| Jerk Chicken</span>
+        <span class="menu-item-price">$40.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans are thighs and legs
+        <br>*wings available upon request & at additional charge(subject to market price)</br>
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+<h2 class="menu-group-heading">
+  Sides By The Pan:
+</h2>
+<div class="menu-group">
+  <div class="menu-item">
+    <img class="menu-item-image" src="https://i.ibb.co/T87xqN6/IMG-1199.jpg" alt="Mostaccioli">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Mostaccioli</span>
+        <span class="menu-item-price">$80.00|$40.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans 
+        <br>*Beef & Turkey| Or Go Meatless</br>
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="https://i.ibb.co/Rc7vV0z/Spaghetti.jpg" alt="Spaghetti">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Spaghetti</span>
+        <span class="menu-item-price">$70.00|$35.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans 
+        <br>*Beef, Turkey, or Meatballs| Or Go Meatless</br>
+      </p>
+    </div>
+ </div>
+</div>
+</div>
+
+<div class="menu-group">
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/pastasalad.jpg" alt="Pasta Salad">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Pasta Salad</span>
+        <span class="menu-item-price">$75.00|$40.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans 
+       
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/img6.jpg" alt="Macaroni & Cheese">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Macaroni & Cheese</span>
+        <span class="menu-item-price">$80.00|$40.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans 
+       
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/egg rolls.jpg" alt="Egg Rolls">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Egg Rolls</span>
+        <span class="menu-item-price">$5.00 per 2</span>
+      </h3>
+      <p class="menu-item-description">
+        *Egg Rolls sold individually and not by the pan
+        <br>*Jerk or Buffalo Chicken| Or Go Meatless</br>
+      </p>
+    </div>
+  </div>
+<div class="menu-item">
+  <img class="menu-item-image" src="../assets/garlicbread.jpg" alt="Garlic Bread">
+  <div class="menu-item-text">
+    <h3 class="menu-item-heading">
+      <span class="menu-item-name">Garlic Bread</span>
+      <span class="menu-item-price">$12.00 per loaf</span>
+    </h3>
+    <p class="menu-item-description">
+      *Savory, Buttery Garlic Bread
+  
+    </p>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="menu-group">
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/gardensalad.webp" alt="Garden Salad">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Garden Salad</span>
+        <span class="menu-item-price">$65.00|$32.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans
+        <br>*chicken available upon request & at additional chare(subject to market price)</br>
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/ceasarsalad.jpg" alt="Ceasar Salad">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Ceasar Salad</span>
+        <span class="menu-item-price">$70.00|$35.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Full & Half Pans
+        <br>*chicken available upon request & at additional chare(subject to market price)</br>
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+</div>
+<h2 class="menu-group-heading">
+  Desserts:
+</h2>
+<div class="menu-group">
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/strawberry cheesecake.jpg" alt="Strawberry Cheesecake">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Strawberry Cheesecake</span>
+        <span class="menu-item-price">$40.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Strawberry and Apple Crumb Cheesecake
+      
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/applecheescake.jpg" alt="Apple Crumb Cheesecake">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Apple Crumb Cheesecake</span>
+        <span class="menu-item-price">$40.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Strawberry and Apple Crumb Cheesecake
+        
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="https://i.ibb.co/xgW5Qn5/20190616-002.jpg" alt="Strawberry Cheesecake">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Strawberry Cheesecake Bites</span>
+        <span class="menu-item-price">$40.00/per dozen</span>
+      </h3>
+      <p class="menu-item-description">
+        Strawberry and Apple Crumb Cheesecake
+
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="https://i.ibb.co/CvqHKFt/IMG-1918001.jpg" alt="Apple Crumb Cheesecake">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Apple Crumb Cheesecake Bites</span>
+        <span class="menu-item-price">$40.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Strawberry and Apple Crumb Cheesecake
+        
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/cupcakes.jpg" alt="Cupcakes">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Cupcakes</span>
+        <span class="menu-item-price">$35.00/per dozen</span>
+      </h3>
+      <p class="menu-item-description">
+     Baked to perfection!
+      </p>
+    </div>
+  </div>
+  <div class="menu-item">
+    <img class="menu-item-image" src="../assets/Ambrosia.jpg" alt="Hawaiian Salad">
+    <div class="menu-item-text">
+      <h3 class="menu-item-heading">
+        <span class="menu-item-name">Hawaiian Salad</span>
+        <span class="menu-item-price">$35.00</span>
+      </h3>
+      <p class="menu-item-description">
+        Fruit, Cream Filling, Cocunut and more...
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="menu">
+  <h3 class="menu-group-heading">
+    Meal Prep:
+  </h3>
+  <div class="menu-group">
+    <div class="menu-item">
+      <img class="menu-item-image" src="../assets/mealprep1.jpg" alt="Taco Bar">
+      <div class="menu-item-text">
+        <h3 class="menu-item-heading">
+          <span class="menu-item-name">Weekly Menu Selections Include: Lunch and Dinner</span>
+          <span class="menu-item-price">$17.00|per meal</span>
+        </h3>
+        <p class="menu-item-description">
+          3 Items to Include: Protein, Starch, Vegetable
+          <br>*Weekly menu provided.</br>
+          *Orders for the week must be submitted by Wednesday for the upcoming week.
+        </p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img class="menu-item-image" src="https://i.ibb.co/162Y2mV/2487-B0-D6.jpg" alt="Taco Bar">
+      <div class="menu-item-text">
+        <h3 class="menu-item-heading">
+          <span class="menu-item-name">Personalized Meal Plans Include: Lunch and Dinner</span>
+          <span class="menu-item-price">$|per meal based on quoted price</span>
+        </h3>
+        <p class="menu-item-description">
+          3 Items to Include: Protein, Starch, Vegetable
+          <br>*Weekly menu provided.</br>
+          *Orders for the week must be submitted by Wednesday for the upcoming week.
+        </p>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+    
+</div>
+
+</body>
+</html>
